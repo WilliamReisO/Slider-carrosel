@@ -3,7 +3,9 @@ body {
     padding: 0px;
     height: 100vh;
     width: 100vh;
-    background: linear-gradient(72deg, #3DEBB0 1%, cornsilk 99%);
+    background-color: #5dc5da;
+background-image: linear-gradient(19deg, #5dc5da 0%, #71688e 100%);
+
 }
 
 .slider-container {
@@ -25,24 +27,26 @@ body {
 
 .navigation {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 50%;
     transform: translate(-50%);
     display: flex;
+    
 }
 
 .bar {
     width: 70px;
     height: 17px;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.688);
     margin: 6px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.8s;
+    text-decoration: none;
 }
 
 .bar:hover {
-    background: whitesmoke;
+    background: rgba(245, 245, 245, 0.581);
 }
 
 input {

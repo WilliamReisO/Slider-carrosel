@@ -35,6 +35,7 @@ background-image: linear-gradient(19deg, #5dc5da 0%, #71688e 100%);
 }
 
 .bar {
+    
     width: 70px;
     height: 17px;
     border: 2px solid rgba(255, 255, 255, 0.688);
@@ -44,6 +45,7 @@ background-image: linear-gradient(19deg, #5dc5da 0%, #71688e 100%);
     transition: 0.8s;
     text-decoration: none;
 }
+
 
 .bar:hover {
     background: rgba(245, 245, 245, 0.581);
@@ -83,4 +85,30 @@ input {
 
 #slide5:checked~.s1 {
     margin-left: -80%;
+}
+
+@media (max-width:940px) {
+    
+    .slider-container{
+        height: 480px;
+        width: 765px;
+    }
+}
+@media (max-width:720px) {
+    
+    .slider-container{
+        height: 450px;
+        width: 535px;
+    }
+}
+@media (max-width:520px) {
+    
+    .slider-container{
+        height: 340px;
+        width: 335px;
+    }
+    .bar{
+        width: 45px;
+        height: 13px;
+    }
 }
